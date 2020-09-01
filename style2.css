@@ -4,6 +4,11 @@ body{
 	/*display: inline-block;*/
 	/*background-color: white;*/
 }
+/*for hiding scrollbar*/
+body::-webkit-scrollbar{
+	display: none;
+	scroll-behavior: smooth;
+}
 
 #header{
 	width: 100%;
